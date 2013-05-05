@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Munchkin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_main_phase">MainPhase</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="app_id">363899127057426</string>
+    <string name="title_activity_home">Munchkin Android</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="settings">Settings</string>
+    <!-- FACEBOOK ERROR MESSAGES -->
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_button_text">OK</string>
+    <string name="error_dialog_default_text">No response from server.</string>
+    <string name="error_authentication_retry">An error occurred that requires your attention. %1$s</string>
+    <string name="error_authentication_reopen">An error occurred, please re-login.</string>
+    <string name="error_permission">Please allow us to post on your behalf.</string>
+    <string name="error_server">The server is busy, please retry later.</string>
+    <string name="error_bad_request">An error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="error_unknown">An unknown error occurred, please contact the developer with the following message: %1$s</string>
+
+</resources>

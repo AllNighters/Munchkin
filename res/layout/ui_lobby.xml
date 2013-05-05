@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/playerinfo0"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvRDY"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:text="Players Ready:  " />
+
+        <TextView
+            android:id="@+id/tvNumRDY"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="10"
+            android:text="0" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_weight="30" >
+
+        <LinearLayout
+            android:id="@+id/llscroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/playerinfo0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername0"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername1"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername2"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername3"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername4"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername8"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername5"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    android:visibility="gone"
+                    facebook:preset_size="small" />
+
+                <TextView
+                    android:id="@+id/tvplayername6"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/playerinfo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profPic7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvplayername7"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="75"
+                    android:text="TextView" />
+
+                <CheckBox
+                    android:id="@+id/cbplayer7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:clickable="false"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="30" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvChatText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10" >
+
+        <EditText
+            android:id="@+id/etSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/bSend"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:text="^" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10" >
+
+        <Button
+            android:id="@+id/bleave"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="Wimp Out!" />
+
+        <Button
+            android:id="@+id/bplay"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="Start Game!" />
+    </LinearLayout>
+
+</LinearLayout>

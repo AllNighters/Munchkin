@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I\nN\n\nH\nA\nN\nD"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <HorizontalScrollView
+        android:id="@+id/hSVHand"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="45" >
+
+        <LinearLayout
+            android:id="@+id/cardHandLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E\nQ\nU\nI\nP\nP\nE\nD"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <HorizontalScrollView
+        android:id="@+id/hSVEquip"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="45" >
+
+        <LinearLayout
+            android:id="@+id/cardEquipLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
